@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Heebo|Montserrat|Roboto");
+@import url('https://fonts.googleapis.com/css?family=Bitter|Heebo|Montserrat|Roboto');
 
 .navbar-toggle-icon {
   color: black;
@@ -6,6 +6,15 @@
 
 .navbar{
   background:rgba(133, 134, 153, 0.20);
+}
+.navbar-brand{
+  font-family: 'Bitter', serif;
+  color: black;
+  font-size: 1.5em;
+
+  &:hover, &:link, &:visited{
+    text-decoration: none;
+  }
 }
 .nav {
   .nav-item {
