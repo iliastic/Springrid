@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Montserrat|Roboto');
 
 .navbar-toggle-icon{
     color: black;
@@ -25,17 +25,24 @@
 }
 .card{
     margin: auto;
+    border-radius: 20px;
     .card:hover{
       background-color:linear-gradient(270deg, rgb(255, 90, 0) 0%, rgb(255, 54, 0) 100%);
+
     }
 }
 
 .card-title{
     font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.05em;
 }
 
 .card-text{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
     word-spacing: 0.2em;
+}
+
+.fas{
+  margin-bottom: 0.3em;
 }
 
