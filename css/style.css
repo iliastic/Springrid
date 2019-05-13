@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo|Roboto");
+.navbar-toggle-icon {
+  color: black;
+}
+
+.nav .nav-item .nav-link {
+  color: black;
+}
+
+.nav .nav-item .nav-link:link, .nav .nav-item .nav-link:hover {
+  text-decoration: none;
+}
+
+.carousel-inner {
+  height: 70vh;
+}
+
+.card-row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  margin: auto;
+}
+
+.card .card:hover {
+  background-color: linear-gradient(270deg, #ff5a00 0%, #ff3600 100%);
+}
+
+.card-title {
+  font-family: 'Heebo', sans-serif;
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 0.2em;
+}
+/*# sourceMappingURL=style.css.map */
