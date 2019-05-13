@@ -1,48 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo|Montserrat|Roboto');
+@import url("https://fonts.googleapis.com/css?family=Heebo|Montserrat|Roboto");
 
-.navbar-toggle-icon{
-    color: black;
+.navbar-toggle-icon {
+  color: black;
 }
 .nav {
   .nav-item {
     .nav-link {
       color: black;
     }
-    .nav-link:link, .nav-link:hover{
-        text-decoration: none;
+    .nav-link:link,
+    .nav-link:hover {
+      text-decoration: none;
     }
   }
 }
 
-.carousel-inner {
-  height: 70vh;
-}
 
 
-.card-row{
+.card-row {
   margin-left: auto;
   margin-right: auto;
 }
-.card{
-    margin: auto;
-    border-radius: 20px;
-    .card:hover{
-      background-color:linear-gradient(270deg, rgb(255, 90, 0) 0%, rgb(255, 54, 0) 100%);
-
-    }
+.card {
+  margin: auto;
+  border-radius: 20px;
+  .card:hover {
+    background-color: linear-gradient(
+      270deg,
+      rgb(255, 90, 0) 0%,
+      rgb(255, 54, 0) 100%
+    );
+  }
 }
 
-.card-title{
-    font-family: 'Heebo', sans-serif;
-    letter-spacing: 0.05em;
+.card-title {
+  h3 {
+    font-family: "montserrat", sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+  }
 }
 
-.card-text{
-  font-family: 'Montserrat', sans-serif;
-    word-spacing: 0.2em;
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 0.2em;
 }
 
-.fas{
+.fas {
   margin-bottom: 0.3em;
 }
 
+.carousel-caption{
+  top: 2em;
+}

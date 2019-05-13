@@ -7,12 +7,9 @@
   color: black;
 }
 
-.nav .nav-item .nav-link:link, .nav .nav-item .nav-link:hover {
+.nav .nav-item .nav-link:link,
+.nav .nav-item .nav-link:hover {
   text-decoration: none;
-}
-
-.carousel-inner {
-  height: 70vh;
 }
 
 .card-row {
@@ -29,17 +26,22 @@
   background-color: linear-gradient(270deg, #ff5a00 0%, #ff3600 100%);
 }
 
-.card-title {
-  font-family: 'Heebo', sans-serif;
-  letter-spacing: 0.05em;
+.card-title h3 {
+  font-family: "montserrat", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: bold;
 }
 
 .card-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   word-spacing: 0.2em;
 }
 
 .fas {
   margin-bottom: 0.3em;
+}
+
+.carousel-caption {
+  top: 2em;
 }
 /*# sourceMappingURL=style.css.map */
