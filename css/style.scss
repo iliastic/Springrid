@@ -227,9 +227,16 @@ h3 {
 
 
 // end portfolio css
-.navbar-toggle-icon {
-  color: black;
+
+
+.welcome-content {
+  text-align: justify;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
+
 
 .navbar {
   background: white;
