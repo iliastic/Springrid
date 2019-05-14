@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bitter|Heebo|Montserrat|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Jaldi:700");
 html, body {
   width: 100%;
   height: 100%;
@@ -489,8 +490,54 @@ h3 {
   margin-bottom: 1em;
 }
 
-#mytab .nav-item #hometab:visited, #mytab .nav-item #hometab:hover, #mytab .nav-item #hometab:link, #mytab .nav-item #profile-tab:visited, #mytab .nav-item #profile-tab:hover, #mytab .nav-item #profile-tab:link {
-  text-decoration: none;
+.cardstylingprice {
+  background: -webkit-linear-gradient(left, #f48f1a, #f5c783);
   border: none;
+  -webkit-box-shadow: -8px -4px 30px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px -4px 30px -8px rgba(0, 0, 0, 0.75);
+}
+
+.cardtitleheader, .reserveerbtn {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Jaldi', sans-serif;
+}
+
+footer {
+  background-color: #111114;
+}
+
+footer p {
+  color: lightslategray;
+}
+
+footer h6 {
+  color: whitesmoke;
+}
+
+footer .posted-date {
+  color: #f48f1a;
+}
+
+footer .googlemapscol {
+  contain: content;
+}
+
+footer .mapouter {
+  margin: auto;
+}
+
+#castle {
+  color: #fff;
+  font-size: 300%;
+}
+
+.register-left #castle {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  width: 25%;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 1s infinite alternate;
 }
 /*# sourceMappingURL=style.css.map */
