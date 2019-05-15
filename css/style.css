@@ -610,13 +610,12 @@ h4 {
   padding: 3em;
 }
 
-.welcomespringrid h1 {
+.welcomespringrid h2 {
   color: white;
 }
 
 .welcomespringrid p {
   color: #737373;
-  width: 70%;
   line-height: 2em;
 }
 

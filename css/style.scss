@@ -10,8 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
 // carousel css
 
 h2 {
@@ -460,8 +458,7 @@ h3 {
   top: 50%;
   transform: translateY(-50%);
 }
-// navigation css 
-
+// navigation css
 
 .navigation {
   margin: 1.5em 0;
@@ -485,8 +482,8 @@ h3 {
     }
   }
 }
-.navbar-toggler{
-  .btn{
+.navbar-toggler {
+  .btn {
     background: -webkit-linear-gradient(left, #f48f1a, #f5c783);
     border-radius: 10px;
     width: 5em;
@@ -602,12 +599,11 @@ h3 {
   margin-top: 4em;
   padding: 3em;
 
-  h1 {
+  h2 {
     color: white;
   }
   p {
     color: #737373;
-    width: 70%;
     line-height: 2em;
   }
 }
@@ -637,13 +633,11 @@ h3 {
   font-family: "Jaldi", sans-serif;
 }
 
-
-  .card-body {
-    .card-text {
-      font-weight: 500;
-    }
+.card-body {
+  .card-text {
+    font-weight: 500;
   }
-
+}
 
 .cardtitleheader,
 .reserveerfooterbtn {
