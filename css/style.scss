@@ -1,17 +1,112 @@
 @import url("https://fonts.googleapis.com/css?family=Bitter|Heebo|Montserrat|Roboto");
-@import url('https://fonts.googleapis.com/css?family=Jaldi:700');
+@import url("https://fonts.googleapis.com/css?family=Jaldi:700");
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
+// carousel css
 
-// portfolio css 
+h2 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: -webkit-linear-gradient(left, #f48f1a, #f5c783);
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+.col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+.carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+.carousel .item {
+  color: #737373;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+.carousel .item .img-box {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.carousel .testimonial {
+  padding: 30px 0 10px;
+}
+.carousel .overview {
+  font-style: italic;
+}
+.carousel .overview b {
+  text-transform: uppercase;
+  color: #f48f1a;
+}
+.carousel .carousel-control {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 50%;
+  background: none;
+}
+.carousel-control i {
+  font-size: 68px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+.carousel-indicators li {
+  background: #999;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {
+  background: #555;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+// portfolio css
 
 p {
   line-height: 1.75;
@@ -29,12 +124,13 @@ a:hover {
   color: #f48f1a !important;
 }
 
-
 h2,
 h3,
 h4 {
   font-weight: 700;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 h2,
 h3 {
@@ -51,17 +147,16 @@ h3 {
 }
 
 .page-section h3.section-subheading {
+  margin-top: 1.5em;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
-
-
-
 
 .service-heading {
   margin: 15px 0;
@@ -95,7 +190,11 @@ h3 {
   opacity: 0.88;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -106,12 +205,27 @@ h3 {
   color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  i {
   margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h3,
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h4 {
   margin: 0;
 }
 
@@ -132,7 +246,9 @@ h3 {
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #portfolio * {
@@ -172,7 +288,9 @@ h3 {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -225,23 +343,21 @@ h3 {
   background-color: #212529;
 }
 
-
 // end portfolio css
 
-// form css 
+// form css
 
-
-.register{
+.register {
   background: -webkit-linear-gradient(left, #f48f1a, #f5c783);
   margin-top: 3%;
   padding: 3%;
 }
-.register-left{
+.register-left {
   text-align: center;
   color: #fff;
   margin-top: 4%;
 }
-.register-left input{
+.register-left input {
   border: none;
   border-radius: 1.5rem;
   padding: 2%;
@@ -253,36 +369,44 @@ h3 {
   margin-bottom: 3%;
   cursor: pointer;
 }
-.register-right{
+.register-right {
   background: #f8f9fa;
   border-top-left-radius: 10% 50%;
   border-bottom-left-radius: 10% 50%;
 }
-.register-left img{
+.register-left img {
   margin-top: 15%;
   margin-bottom: 5%;
   width: 25%;
-  -webkit-animation: mover 2s infinite  alternate;
-  animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 1s infinite alternate;
 }
 @-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-20px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 @keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-20px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
-.register-left p{
+.register-left p {
   font-weight: lighter;
   padding: 12%;
   margin-top: -9%;
 }
-.register .register-form{
+.register .register-form {
   padding: 10%;
   margin-top: 10%;
 }
-.btnRegister{
+.btnRegister {
   float: right;
   margin-top: 10%;
   border: none;
@@ -294,7 +418,7 @@ h3 {
   width: 50%;
   cursor: pointer;
 }
-.register .nav-tabs{
+.register .nav-tabs {
   margin-top: 3%;
   border: none;
   background: #f48f1a;
@@ -302,7 +426,7 @@ h3 {
   width: 28%;
   float: right;
 }
-.register .nav-tabs .nav-link{
+.register .nav-tabs .nav-link {
   padding: 2%;
   height: 34px;
   font-weight: 600;
@@ -310,24 +434,24 @@ h3 {
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 }
-.register .nav-tabs .nav-link:hover{
+.register .nav-tabs .nav-link:hover {
   border: none;
 }
-.register .nav-tabs .nav-link.active{
+.register .nav-tabs .nav-link.active {
   width: 100px;
   color: #f48f1a;
   border: 2px solid #f48f1a;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
-.register-heading{
+.register-heading {
   text-align: center;
   margin-top: 8%;
   margin-bottom: -15%;
   color: #495057;
 }
 
-// end form css 
+// end form css
 .welcome-content {
   text-align: justify;
   position: relative;
@@ -335,8 +459,7 @@ h3 {
   transform: translateY(-50%);
 }
 
-
-.navigation{
+.navigation {
   margin-bottom: 3em;
 }
 .navbar {
@@ -347,20 +470,17 @@ h3 {
   font-family: "Bitter", serif;
   color: black;
   font-size: 1.5em;
-  
 
   &:link,
-  &:visited, 
+  &:visited,
   &:visited {
     text-decoration: none;
-    
-    img{
+
+    img {
       height: 4em;
       margin-left: -10px;
     }
   }
-
-  
 }
 .nav {
   .nav-item {
@@ -370,40 +490,38 @@ h3 {
     .nav-link:link {
       text-decoration: none;
     }
-    .nav-link:hover{
+    .nav-link:hover {
       border-bottom: 2px solid #f48f1a;
     }
   }
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0,0,0,0.3)), url("http://www.v-formation.be/wp-content/uploads/2015/12/Teambuilding-June-28-Ghent-22.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)),
+    url("http://www.v-formation.be/wp-content/uploads/2015/12/Teambuilding-June-28-Ghent-22.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
   height: 80vh;
   width: 100vw;
-  
 }
 
-.hero-text{
+.hero-text {
   position: absolute;
   text-align: center;
   color: white;
   width: 100%;
   margin-top: 3em;
 
-  h3{
+  h3 {
     font-size: 2.5em;
     color: white;
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 0.015em;
-}
   }
-
-
+}
 
 .card-row {
   margin-left: auto;
@@ -469,75 +587,114 @@ h3 {
 .welcomespringrid {
   background: #111114;
   margin-top: 4em;
-    padding: 3em;
+  padding: 3em;
 
-  h1{
+  h1 {
     color: white;
   }
-  p{
-    color: grey;
+  p {
+    color: #737373;
     width: 70%;
     line-height: 2em;
   }
 }
+// event css
 
-.eventscontainer{
+.eventscontainer {
   margin-top: 4em;
-    padding: 3em;
+  padding: 3em;
 
-    h1{
-      margin-bottom: 1em;
-    }
+  h1 {
+    margin-bottom: 1em;
+  }
 }
 
-.cardstylingprice{
+.cardstylingprice {
   background: -webkit-linear-gradient(left, #f48f1a, #f5c783);
   border: none;
-  -webkit-box-shadow: -8px -4px 30px -8px rgba(0,0,0,0.75);
--moz-box-shadow: -8px -4px 30px -8px rgba(0,0,0,0.75);
-box-shadow: -8px -4px 30px -8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -8px -4px 30px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px -4px 30px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px -4px 30px -8px rgba(0, 0, 0, 0.75);
 }
-.cardtitleheader, .reserveerbtn {
+.cardtitleheader,
+.reserveerbtn {
   color: white;
-    font-weight: bold;
-    font-size: 1.5em;
-    font-family: 'Jaldi', sans-serif;
-
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Jaldi", sans-serif;
 }
+
+
+  .card-body {
+    .card-text {
+      font-weight: 500;
+    }
+  }
+
+
+.cardtitleheader,
+.reserveerfooterbtn {
+  border: none;
+}
+
+.reserveerbtn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid black;
+  }
+}
+
+.section-subheading-event {
+  margin-top: 1.5em;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+//footer css
 
 footer {
   background-color: #111114;
 
+  p {
+    color: lightslategray;
+  }
 
-p {
-  color: lightslategray;
-}
+  h6 {
+    color: whitesmoke;
+  }
 
-h6 { 
-  color: whitesmoke;
-}
+  .posted-date {
+    color: #f48f1a;
+  }
+  .googlemapscol {
+    contain: content;
+  }
 
-.posted-date {
-  color: #f48f1a;
+  .mapouter {
+    margin: auto;
+  }
 }
-.googlemapscol{
-  contain: content;
-}
-
-.mapouter{
-  margin: auto;
-}
-}
-
 
 #castle {
   color: #fff;
   font-size: 300%;
-  }
-  .register-left #castle{
+}
+.register-left #castle {
   margin-top: 15%;
   margin-bottom: 5%;
   width: 25%;
   -webkit-animation: mover 2s infinite alternate;
   animation: mover 1s infinite alternate;
-  }
+}
