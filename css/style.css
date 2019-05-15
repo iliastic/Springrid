@@ -480,7 +480,7 @@ h4 {
 }
 
 .navigation {
-  margin-bottom: 3em;
+  margin: 1.5em 0;
 }
 
 .navbar {
@@ -501,6 +501,14 @@ h4 {
 .navbar-brand:link img, .navbar-brand:visited img, .navbar-brand:visited img {
   height: 4em;
   margin-left: -10px;
+}
+
+.navbar-toggler .btn {
+  background: -webkit-linear-gradient(left, #f48f1a, #f5c783);
+  border-radius: 10px;
+  width: 5em;
+  font-weight: bold;
+  color: white;
 }
 
 .nav .nav-item .nav-link {

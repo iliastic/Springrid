@@ -10,6 +10,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 // carousel css
 
 h2 {
@@ -458,9 +460,11 @@ h3 {
   top: 50%;
   transform: translateY(-50%);
 }
+// navigation css 
+
 
 .navigation {
-  margin-bottom: 3em;
+  margin: 1.5em 0;
 }
 .navbar {
   background: white;
@@ -482,6 +486,16 @@ h3 {
     }
   }
 }
+.navbar-toggler{
+  .btn{
+    background: -webkit-linear-gradient(left, #f48f1a, #f5c783);
+    border-radius: 10px;
+    width: 5em;
+    font-weight: bold;
+    color: white;
+  }
+}
+
 .nav {
   .nav-item {
     .nav-link {
