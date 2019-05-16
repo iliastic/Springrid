@@ -528,6 +528,7 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
   position: relative;
   height: 80vh;
   width: 100vw;
@@ -694,6 +695,11 @@ footer .googlemapscol {
 
 footer .mapouter {
   margin: auto;
+}
+
+footer .posted-date {
+  font-size: 9pt;
+  color: #e6e6e6;
 }
 
 #castle {
