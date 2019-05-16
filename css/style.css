@@ -449,7 +449,8 @@ h4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("http://www.v-formation.be/wp-content/uploads/2015/12/Teambuilding-June-28-Ghent-22.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  background-attachment: fixed;
   position: relative;
   height: 80vh;
   width: 100vw;
