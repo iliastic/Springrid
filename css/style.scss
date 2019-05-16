@@ -622,3 +622,19 @@ footer {
   -webkit-animation: mover 2s infinite alternate;
   animation: mover 1s infinite alternate;
 }
+
+.register-right {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+
+  ul{
+    li{
+      a:hover{
+        text-decoration: none;
+        border: none;
+        color: inherit;
+      }
+    }
+  }
+}
