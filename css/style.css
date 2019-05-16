@@ -295,12 +295,12 @@ h4 {
   margin-bottom: 3%;
   cursor: pointer;
 }
+
 .register-right {
   background: #f8f9fa;
   border-top-left-radius: 10% 50%;
   border-bottom-left-radius: 10% 50%;
 }
-
 
 .register-left img {
   margin-top: 15%;
@@ -450,7 +450,6 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
   position: relative;
   height: 80vh;
   width: 100vw;
@@ -620,11 +619,6 @@ footer .mapouter {
   margin: auto;
 }
 
-footer .posted-date {
-  font-size: 9pt;
-  color: #e6e6e6;
-}
-
 #castle {
   color: #fff;
   font-size: 300%;
@@ -636,5 +630,17 @@ footer .posted-date {
   width: 25%;
   -webkit-animation: mover 2s infinite alternate;
   animation: mover 1s infinite alternate;
+}
+
+.register-right {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+
+.register-right ul li a:hover {
+  text-decoration: none;
+  border: none;
+  color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
