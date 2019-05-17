@@ -5,7 +5,9 @@
 Ilias Mesbahi, Jonas Dreessen, Kenneth Van Der Strieckt en Tine Vancorenland created a fictional bouncy castle company called Springrid as a group project during their training at BeCode to become Junior Webdevelopers.
 
 As instructed by...
-![Filip](Filip.jpeg)
+![Filip](/imagecompressor/Filip.jpeg)
+
+Free for personal and commercial use as described in the licence document "licence.txt".
 
 - [x] **How**
 
@@ -19,7 +21,7 @@ To properly use this website, you should:
 
 We created a fictional bouncy castle company called Springrid, (which already exists; but best name ever so we're gonna use it for this fictional webdevelopment project but will never translate it to reality).
 
-![Springrid](logo.png)
+![Springrid](/imagecompressor/logo.png)
 needs four pages:
 
 - What do we do?
