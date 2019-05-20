@@ -653,4 +653,9 @@ footer .mapouter {
   border: none;
   color: inherit;
 }
+
+.gmap_canvas_map {
+  width: 100%;
+  height: 40vh;
+}
 /*# sourceMappingURL=style.css.map */
